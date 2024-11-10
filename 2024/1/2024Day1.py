@@ -2,7 +2,7 @@
 # Solved in 2024
 # Puzzle Link: https://everybody.codes/event/2024/quests/1
 # Solution by: [abbasmoosajee07]
-# Brief: [Code/Problem Description]
+# Brief: [Letter Math and Fights]
 
 #!/usr/bin/env python3
 

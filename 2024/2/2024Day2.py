@@ -2,7 +2,7 @@
 # Solved in 2024
 # Puzzle Link: https://everybody.codes/event/2024/quests/2
 # Solution by: [abbasmoosajee07]
-# Brief: [Code/Problem Description]
+# Brief: [Word Search Algorithms]
 
 #!/usr/bin/env python3
 
