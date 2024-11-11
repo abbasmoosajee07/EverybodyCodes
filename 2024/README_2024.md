@@ -1,6 +1,6 @@
 # Everybody Codes 2024 - Coding Challenge Summaries
 
-This repository contains coding solutions for the 2024 Advent of Code. Each day's challenge offers unique puzzles requiring efficient coding, algorithmic thinking, and optimization.
+This repository contains coding solutions for the 2024 Everybody Codes. Each day's challenge offers unique puzzles requiring efficient coding, algorithmic thinking, and optimization.
 
 ## Day-by-Day Coding Overview
 
