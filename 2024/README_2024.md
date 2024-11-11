@@ -7,3 +7,5 @@ This repository contains coding solutions for the 2024 Advent of Code. Each day'
 1. **Day 1 - Letter Fighters**: Count number of letters in a series of strings, keeping track of groups and assigning different weights
 2. **Day 2 - Word Search Algorithms**: Looking for specific string groups in a series of strings, using a Breadth-Find Search for Part 3.
 3. **Day 3 - Game of Life**: Mine the ground based on  conditions surrounding it
+4. **Day 4 - Number Lists and Math**: Throwback to simple maths, requiring simple addition
+5. **Day 5 - Rotating Columns**: Weird Dances and rotating columns
