@@ -6,7 +6,7 @@ import os
 import sys
 
 # Default values for the arguments
-DEFAULT_DAY = 2
+DEFAULT_DAY = 6
 DEFAULT_YEAR = 2024
 DEFAULT_YEAR_SOLVE = 2024
 DEFAULT_AUTHOR = 'abbasmoosajee07'
@@ -29,25 +29,28 @@ else:
     Year_Solve = int(valid_args[3]) if len(valid_args) > 3 else DEFAULT_YEAR_SOLVE
     Author = valid_args[4] if len(valid_args) > 4 else DEFAULT_AUTHOR
 
-# Define the path for the new subfolder using the day and year variables
-base_dir = os.path.join(str(Year), str(Day))
+# Add zero padding to the day number for folder and filenames (but not the web link)
+padded_day = str(Day).zfill(2)  # Pads day numbers to two digits (e.g., '01', '02')
+
+# Define the path for the new subfolder using the padded day and year variables
+base_dir = os.path.join(str(Year), padded_day)
 
 # Check if the subfolder already exists, if not, create it
 if not os.path.exists(base_dir):
     os.makedirs(base_dir)
-    print(f"Created subfolder '{Day}' in '{Year}'.")
+    print(f"Created subfolder '{padded_day}' in '{Year}'.")
 else:
-    print(f"Subfolder '{Day}' already exists in '{Year}'.")
+    print(f"Subfolder '{padded_day}' already exists in '{Year}'.")
 
 # Define the path for the Python script file
-python_file_path = os.path.join(base_dir, f'{Year}Day{Day}.py')
+python_file_path = os.path.join(base_dir, f'{Year}Day{padded_day}.py')
 
 # Check if the Python script file already exists
 if not os.path.exists(python_file_path):
     # Define the content of the Python script with dynamic day and year
     python_script_content = f'''# Everybody Codes - Day {Day}, Year {Year}
 # Solved in {Year_Solve}
-# Puzzle Link: https://everybody.codes/event/{Year}/quests/{Day}
+# Puzzle Link: https://everybody.codes/event/{Year}/quests/{Day}  # Web link without padding
 # Solution by: [{Author}]
 # Brief: [Code/Problem Description]
 
@@ -59,11 +62,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the input data from the specified file path
-D{Day}_file = "Day{Day}_input.txt"
-D{Day}_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), D{Day}_file)
+D{padded_day}_file = "Day{padded_day}_input.txt"
+D{padded_day}_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), D{padded_day}_file)
 
 # Read and sort input data into a grid
-with open(D{Day}_file_path) as file:
+with open(D{padded_day}_file_path) as file:
     input_data = file.read().strip().split('\\n')
 print(input_data)
 '''
@@ -71,18 +74,18 @@ print(input_data)
     # Write the Python script to the file
     with open(python_file_path, 'w') as file:
         file.write(python_script_content)
-    print(f"Created Python script '{Year}Day{Day}.py'.")
+    print(f"Created Python script '{Year}Day{padded_day}.py'.")
 else:
-    print(f"Python script '{Year}Day{Day}.py' already exists.")
+    print(f"Python script '{Year}Day{padded_day}.py' already exists.")
 
 # Define the path for the input file
-input_file_path = os.path.join(base_dir, f'Day{Day}_input.txt')
+input_file_path = os.path.join(base_dir, f'Day{padded_day}_input.txt')
 
 # Check if the input text file already exists
 if not os.path.exists(input_file_path):
     # Create the empty input text file
     with open(input_file_path, 'w') as file:
         pass  # Just create an empty file
-    print(f"Created empty input file 'Day{Day}_input.txt'.")
+    print(f"Created empty input file 'Day{padded_day}_input.txt'.")
 else:
-    print(f"Input file 'Day{Day}_input.txt' already exists.")
+    print(f"Input file 'Day{padded_day}_input.txt' already exists.")
