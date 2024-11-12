@@ -2,11 +2,12 @@
 # https://everybody.codes/home
 # Create Template Script for Python
 # python TemplateCode.py 00 2010 2024 abbasmoosajee07
+
 import os
 import sys
 
 # Default values for the arguments
-DEFAULT_DAY = 6
+DEFAULT_DAY = 7
 DEFAULT_YEAR = 2024
 DEFAULT_YEAR_SOLVE = 2024
 DEFAULT_AUTHOR = 'abbasmoosajee07'
@@ -61,14 +62,17 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Load the input data from the specified file path
-D{padded_day}_file = "Day{padded_day}_input.txt"
-D{padded_day}_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), D{padded_day}_file)
+# List of input file names
+input_files = ["Day{padded_day}_p1_input.txt", "Day{padded_day}_p2_input.txt", "Day{padded_day}_p3_input.txt"]
 
-# Read and sort input data into a grid
-with open(D{padded_day}_file_path) as file:
-    input_data = file.read().strip().split('\\n')
-print(input_data)
+# Read and split the input data into individual lists
+input_data_p1, input_data_p2, input_data_p3 = [
+    open(os.path.join(os.path.dirname(__file__), file)).read().strip().split('\\n')
+    for file in input_files
+]
+
+# Now, input_data_p1, input_data_p2, input_data_p3 contain the respective data
+print(input_data_p1), print(input_data_p2), print(input_data_p3)
 '''
 
     # Write the Python script to the file
@@ -78,14 +82,19 @@ print(input_data)
 else:
     print(f"Python script '{Year}Day{padded_day}.py' already exists.")
 
-# Define the path for the input file
-input_file_path = os.path.join(base_dir, f'Day{padded_day}_input.txt')
+# Define the paths for the input files
+input_file_paths = [
+    os.path.join(base_dir, f'Day{padded_day}_p1_input.txt'),
+    os.path.join(base_dir, f'Day{padded_day}_p2_input.txt'),
+    os.path.join(base_dir, f'Day{padded_day}_p3_input.txt')
+]
 
-# Check if the input text file already exists
-if not os.path.exists(input_file_path):
-    # Create the empty input text file
-    with open(input_file_path, 'w') as file:
-        pass  # Just create an empty file
-    print(f"Created empty input file 'Day{padded_day}_input.txt'.")
-else:
-    print(f"Input file 'Day{padded_day}_input.txt' already exists.")
+# Check if the input text files already exist
+for i, input_file_path in enumerate(input_file_paths, start=1):
+    if not os.path.exists(input_file_path):
+        # Create the empty input text file
+        with open(input_file_path, 'w') as file:
+            pass  # Just create an empty file
+        print(f"Created empty input file 'Day{padded_day}_p{i}_input.txt'.")
+    else:
+        print(f"Input file 'Day{padded_day}_p{i}_input.txt' already exists.")

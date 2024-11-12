@@ -5,13 +5,7 @@
 # Brief: [Run all 2024 scripts]
 
 #!/usr/bin/env python3
-import os, subprocess, glob, time
-#!/usr/bin/env python3
-import os
-import subprocess
-import glob
-import time
-import sys
+import os, subprocess, glob, time, sys
 
 def run_script(file_path):
     """Run a script based on its file extension and time its execution."""
@@ -30,8 +24,8 @@ def run_script(file_path):
         start_time = time.time()
 
         if extension == '.py':
-            # Run Python scripts
-            subprocess.run(['python', file_path], check=True)
+            # Run Python scripts with SUPPRESS_PLOT environment variable
+            subprocess.run(['python', file_path], check=True, env={**os.environ, "SUPPRESS_PLOT": "1"})
         elif extension == '.c':
             # Compile and run C files
             executable = file_path.replace('.c', '')

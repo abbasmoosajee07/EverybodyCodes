@@ -123,11 +123,11 @@ print(f"Part 1: After {earth_mined_p1[-1][0]} iterations, earth mined is {earth_
 # 135- Correct Answer
 
 earth_mined_p2, _ = mine_earth(input_data_p2)
-print(f"Part 1: After {earth_mined_p2[-1][0]} iterations, earth mined is {earth_mined_p2[-1][1]}")
+print(f"Part 2: After {earth_mined_p2[-1][0]} iterations, earth mined is {earth_mined_p2[-1][1]}")
 # 2646 Correct Ans
 
 earth_mined_p3, _ = mine_earth(input_data_p3, royal_lands = True)
-print(f"Part 1: After {earth_mined_p3[-1][0]} iterations, earth mined is {earth_mined_p3[-1][1]}")
+print(f"Part 3: After {earth_mined_p3[-1][0]} iterations, earth mined is {earth_mined_p3[-1][1]}")
 # 16142 Wrong Ans, Correct length, Correct first digit
 # 11680 Wrong Ans, Correct length, Correct first digit
 # 10398 Correct Ans, needed to expand grid
