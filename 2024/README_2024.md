@@ -9,3 +9,4 @@ This repository contains coding solutions for the 2024 Everybody Codes. Each day
 3. **Day 3 - Game of Life**: Mine the ground based on  conditions surrounding it
 4. **Day 4 - Number Lists and Math**: Throwback to simple maths, requiring simple addition
 5. **Day 5 - Rotating Columns**: Weird Dances and rotating columns
+6. **Day 6 - Word Trees**: Generate a word tree using networkx libraries
