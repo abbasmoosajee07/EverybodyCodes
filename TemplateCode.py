@@ -7,7 +7,7 @@ import os
 import sys
 
 # Default values for the arguments
-DEFAULT_DAY = 7
+DEFAULT_DAY = 8
 DEFAULT_YEAR = 2024
 DEFAULT_YEAR_SOLVE = 2024
 DEFAULT_AUTHOR = 'abbasmoosajee07'
@@ -49,7 +49,8 @@ python_file_path = os.path.join(base_dir, f'{Year}Day{padded_day}.py')
 # Check if the Python script file already exists
 if not os.path.exists(python_file_path):
     # Define the content of the Python script with dynamic day and year
-    python_script_content = f'''# Everybody Codes - Day {Day}, Year {Year}
+    python_script_content = f'''
+# Everybody Codes - Day {Day}, Year {Year}
 # Solved in {Year_Solve}
 # Puzzle Link: https://everybody.codes/event/{Year}/quests/{Day}
 # Solution by: [{Author}]

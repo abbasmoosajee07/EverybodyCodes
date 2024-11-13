@@ -2,7 +2,7 @@
 # Solved in 2024
 # Puzzle Link: https://everybody.codes/event/2024/quests/7
 # Solution by: [abbasmoosajee07]
-# Brief: [Code/Problem Description]
+# Brief: [Race Tracks and Fights]
 
 #!/usr/bin/env python3
 

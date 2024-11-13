@@ -2,5 +2,24 @@
     "cSpell.ignoreWords": [
         "AJFIBGECH",
         "FJAEIBGCH"
+    ],
+    "cSpell.words": [
+        "axhline",
+        "cbar",
+        "cmap",
+        "colorbar",
+        "edgecolor",
+        "facecolor",
+        "fontsize",
+        "fontweight",
+        "frameon",
+        "linestyle",
+        "linewidth",
+        "mcolors",
+        "vmax",
+        "vmin",
+        "xticks",
+        "ylabel",
+        "zorder"
     ]
 }
