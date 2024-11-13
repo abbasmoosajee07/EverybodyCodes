@@ -10,3 +10,4 @@ This repository contains coding solutions for the 2024 Everybody Codes. Each day
 4. **Day 4 - Number Lists and Math**: Throwback to simple maths, requiring simple addition
 5. **Day 5 - Rotating Columns**: Weird Dances and rotating columns
 6. **Day 6 - Word Trees**: Generate a word tree using networkx libraries
+7. **Day 7 - Race Tracks**: Identify results of a race and different permutations to win
