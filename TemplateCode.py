@@ -51,7 +51,7 @@ if not os.path.exists(python_file_path):
     # Define the content of the Python script with dynamic day and year
     python_script_content = f'''# Everybody Codes - Day {Day}, Year {Year}
 # Solved in {Year_Solve}
-# Puzzle Link: https://everybody.codes/event/{Year}/quests/{Day}  # Web link without padding
+# Puzzle Link: https://everybody.codes/event/{Year}/quests/{Day}
 # Solution by: [{Author}]
 # Brief: [Code/Problem Description]
 
