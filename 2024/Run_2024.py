@@ -29,11 +29,15 @@ def run_script(file_path):
         # Ignore .txt files (such as input files) and .png images
         if extension == '.txt' or extension == '.png' or extension == '.exe':
             return None  # Skip these files
-        
+
         # Print the file name (not the full path) before running
         file_name = os.path.basename(file_path)
-        print(f"\nRunning script: {file_name}")
-        
+
+        if os.path.basename(file_path).startswith("Alt"):
+            print(f"Skipping script: {file_name} (starts with 'Alt')")
+            return None
+        else:
+            print(f"\nRunning script: {file_name}")
         # Record start time
         start_time = time.time()
 
