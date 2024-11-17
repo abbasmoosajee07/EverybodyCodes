@@ -32,6 +32,7 @@ def create_letter_grid(input_data):
     return np.array(grid)
 
 def complete_grid(grid):
+    updated_grid = copy.deepcopy(grid)
     # Initialize variables
     letter_string = []
     ignore = {".", "?"}  # Use a set for efficient lookups
@@ -43,12 +44,15 @@ def complete_grid(grid):
         row_letters = grid[index[0]]
         col_letters = grid[:,index[1]]
         common_letter = [letter for letter in row_letters if letter in col_letters and letter not in ignore]
-
-        letter_string.append(str(common_letter[0]))
-    return ''.join(letter_string), letter_string
+        if common_letter == []:
+            pass
+        else:
+            updated_grid[index] = common_letter[0]
+            letter_string.append(str(common_letter[0]))
+    return ''.join(letter_string), letter_string, updated_grid
 
 grid_p1 = create_letter_grid(input_data_p1)
-ans_p1, rune_p1 = complete_grid(grid_p1)
+ans_p1, _, new = complete_grid(grid_p1)
 print(f"Part 1: {ans_p1}")
 
 def divide_grid(input_data, grid_size = 8):
@@ -98,7 +102,7 @@ def total_power(grid_list):
     total_power = 0
     for small_grid in grid_list:
         grid_array = create_letter_grid(small_grid)
-        runic_word, letter_string = complete_grid(grid_array)
+        runic_word, letter_string, new_grid = complete_grid(grid_array)
         rune_score = calc_rune_power(letter_string)
         total_power += rune_score
         power_list.append([runic_word,int(rune_score)])

@@ -1,0 +1,3 @@
+# Ignore all DayXX_input.txt files in any subdirectory
+**/Day??_p?_input.txt
+**/Day?_input.txt
