@@ -54,11 +54,11 @@ def find_total_combos(num_str, stamps):
 # Run Code for Day 9, 2024
 stamps_p1 = [1, 3, 5, 10]
 ans_p1 = find_total_combos(input_data_p1, stamps_p1)
-print(f"Part 1: {ans_p1}")
+print(f"Quest 1: {ans_p1}")
 
 stamps_p2 = [1, 3, 5, 10, 15, 16, 20, 24, 25, 30]
 ans_p2 = find_total_combos(input_data_p2, stamps_p2)
-print(f"Part 2: {ans_p2}")
+print(f"Quest 2: {ans_p2}")
 
 def beetles_for_kings_order(input_data, stamps):
     """
@@ -115,6 +115,6 @@ def beetles_for_kings_order(input_data, stamps):
     return total_beetles
 stamps_p3 = [1, 3, 5, 10, 15, 16, 20, 24, 25, 30, 37, 38, 49, 50, 74, 75, 100, 101]
 ans_p3 = beetles_for_kings_order(input_data_p3, stamps_p3)
-print(f"Part 3: {ans_p3}")
+print(f"Quest 3: {ans_p3}")
 
 # 149562 Wrong ans, Correct len and first digit

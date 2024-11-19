@@ -43,7 +43,7 @@ def count_special_blocks(input):
     raise RuntimeError("Unreachable code reached")
 
 ans_p1 = count_special_blocks(input_data_p1)
-print(f"Part 1: {ans_p1}")
+print(f"Quest 1: {ans_p1}")
 
 def build_shrine(input):
     priests = int(input[0])
@@ -64,7 +64,7 @@ def build_shrine(input):
     raise RuntimeError("Unreachable code reached")
 
 ans_p2 = build_shrine(input_data_p2)
-print(f"Part 2: {ans_p2}")
+print(f"Quest 2: {ans_p2}")
 
 def complete_shrine(input):
     input_value = int(input[0])
@@ -94,4 +94,4 @@ def complete_shrine(input):
     return out
 
 ans_p3 = complete_shrine(input_data_p3)
-print(f"Part 3: {ans_p3}")
+print(f"Quest 3: {ans_p3}")

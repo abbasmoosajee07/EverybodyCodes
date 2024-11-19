@@ -74,10 +74,10 @@ def pseudo_clap_dance(input_data, iterations, part = 1):
         return max(dance_result)
 
 clapper_p1 = pseudo_clap_dance(input_data_p1, 10, 1)
-print(f"Part 1: {clapper_p1}")
+print(f"Quest 1: {clapper_p1}")
 
 clapper_p2 = pseudo_clap_dance(input_data_p2, 1800000, 2)
-print(f"Part 2: {clapper_p2}")
+print(f"Quest 2: {clapper_p2}")
 
 clapper_p3 = pseudo_clap_dance(input_data_p3, 1800000, 3)
-print(f"Part 2: {clapper_p3}")
+print(f"Quest 3: {clapper_p3}")

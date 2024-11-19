@@ -59,14 +59,14 @@ def calculate_potions(fighters, split_size):
 single_fighters = input_data[0] # 1321
 # single_fighters = 'ABBAC'       # 5
 potions_p1 = calculate_potions(single_fighters, split_size=1)  # Split into pairs
-print(f"Part 1: Potions required for single fights: {potions_p1}")
+print(f"Quest 1: Potions required for single fights: {potions_p1}")
 
 double_fighter = input_data[1] # 5643
 # double_fighter = 'AxBCDDCAxD'  # 28
 potions_p2 = calculate_potions(double_fighter, split_size=2)  # Split into pairs
-print(f"Part 2: Potions required for paired foes: {potions_p2}")
+print(f"Quest 2: Potions required for paired foes: {potions_p2}")
 
 triple_fighter = input_data[2]
 # triple_fighter = 'xBxAAABCDxCC' # 30
 potions_p3 = calculate_potions(triple_fighter, split_size=3)  # Split into triplets
-print(f"Part 3: Potions required for triplet foes: {potions_p3}")
+print(f"Quest 3: Potions required for triplet foes: {potions_p3}")

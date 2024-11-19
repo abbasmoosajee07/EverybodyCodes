@@ -81,10 +81,10 @@ def find_path(input_data, full_path = True):
     return output_path
 
 ans_p1 = find_path(input_data_p1)
-print(f"Part 1: {ans_p1}")
+print(f"Quest 1: {ans_p1}")
 
 ans_p2 = find_path(input_data_p2, full_path=False)
-print(f"Part 2: {ans_p2}")
+print(f"Quest 2: {ans_p2}")
 
 ans_p3 = find_path(input_data_p3, full_path=False)
-print(f"Part 3: {ans_p3}")
+print(f"Quest 3: {ans_p3}")

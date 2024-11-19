@@ -98,11 +98,11 @@ def running_race(input_data, race_track , total_laps):
     return race_results, np.array(race_timeline)
 
 ans_p1, _ = ranking_grid(input_data_p1)
-print(f"Part 1: {ans_p1}")
+print(f"Quest 1: {ans_p1}")
 
 race_track_p2 = flatten_race_track(track_p2_txt)
 ans_p2, timeline_p2 = running_race(input_data_p2, race_track_p2, 10)
-print(f"Part 2: {ans_p2}")
+print(f"Quest 2: {ans_p2}")
 
 def create_race_track(track_map):
     rows, cols = len(track_map), len(track_map[0])
@@ -194,4 +194,4 @@ def action_plan(input_lines, track):
 track_str = create_race_track(track_p3_txt)
 ans_p3 = action_plan(input_data_p3, track_str)
 
-print(f"Part 3: {ans_p3}")
+print(f"Quest 3: {ans_p3}")

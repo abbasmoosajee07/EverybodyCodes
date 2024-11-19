@@ -3,7 +3,7 @@
 # Solved in 2024
 # Puzzle Link: https://everybody.codes/event/2024/quests/10
 # Solution by: [abbasmoosajee07]
-# Brief: [Code/Problem Description]
+# Brief: [Solving Letter Grids]
 
 #!/usr/bin/env python3
 
@@ -53,7 +53,7 @@ def complete_grid(grid):
 
 grid_p1 = create_letter_grid(input_data_p1)
 ans_p1, _, new = complete_grid(grid_p1)
-print(f"Part 1: {ans_p1}")
+print(f"Quest 1: {ans_p1}")
 
 def divide_grid(input_data, grid_size = 8):
 
@@ -110,7 +110,7 @@ def total_power(grid_list):
 
 grid_list_p2 = divide_grid(input_data_p2)
 ans_p2, runes_p2 = total_power(grid_list_p2)
-print(f"Part 2: {ans_p2}")
+print(f"Quest 2: {ans_p2}")
 
 # 92428  Wrong
 # 104930 Digit and len correct

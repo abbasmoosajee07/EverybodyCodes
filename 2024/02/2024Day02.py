@@ -38,7 +38,7 @@ for word in runic_words_p1:
         runic_occurrence = inscription_p1.count(word)
         runic_count += runic_occurrence
 
-print(f"Part 1: {runic_count}")
+print(f"Quest 1: {runic_count}")
 
 def include_reversed_strings(word_list):
     # Add reversed words to the words list
@@ -79,7 +79,7 @@ def find_runes(runic_words, inscription):
         runic_count += sum(line_as_booleans_grid)
     return runic_count
 runic_count_p2 = find_runes(runic_words_p2, inscription_p2)
-print("Part 2:", runic_count_p2)
+print(f"Quest 2: {runic_count_p2}")
 
 # 4889, correct length, incorrect first digit
 # 5651, correct length, correct first digit
@@ -159,5 +159,5 @@ for word in runic_words_p3:
 # Count the occurrences of strings with letters in the found grid
 runic_count_p3 = sum(count_strings_with_letters(row) for row in found_grid)
 
-print(f"Part 3: {runic_count_p3}")
+print(f"Quest 3: {runic_count_p3}")
 

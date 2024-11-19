@@ -56,10 +56,10 @@ def count_hammer_strikes(nail_str, level = False):
     return hammer_count
 
 hammer_p1 = count_hammer_strikes(input_list_p1)
-print(f"Part 1: {hammer_p1}")
+print(f"Quest 1: {hammer_p1}")
 
 hammer_p2 = count_hammer_strikes(input_list_p2)
-print(f"Part 2: {hammer_p2}")
+print(f"Quest 2: {hammer_p2}")
 
 hammer_p3 = count_hammer_strikes(input_list_p3, level=True)
-print(f"Part 3: {hammer_p3}")
+print(f"Quest 3: {hammer_p3}")
