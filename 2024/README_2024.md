@@ -15,3 +15,9 @@ This repository contains coding solutions for the 2024 Everybody Codes. Each day
 7. **Day 7 - Race Tracks**: Identify results of a race and different permutations to win.
 8. **Day 8- Building Shrines**: Build a shrine using numbered blocks with various different construction restrictions.
 9. **Day 9- How to build a number**: Using recursion find the different combinations that can be used to build a number.
+10. **Day 10- Fill in Word Grids**: Similar to sudoku but for words, pretty fun except for Quest 3
+11. **Day 11- Termite Population**: Simulate the growth of termites based on previous roles
+12. **Day 12- Angry Birds**: Projectile motion but on a grid, similar to good ol Angry Birds
+13. **Day 13- Grid Traversal**: Traverse grid w/ different levels using Djikstra algorithm
+14. **Day 14- Build Trees**: Follow commands to build trees, and find different attributes of it
+15. **Day 15- Pathfinding on grid**: 
