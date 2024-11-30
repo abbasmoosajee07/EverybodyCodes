@@ -3,7 +3,7 @@
 # Solved in 2024
 # Puzzle Link: https://everybody.codes/event/2024/quests/20
 # Solution by: [abbasmoosajee07]
-# Brief: [Code/Problem Description]
+# Brief: [Glider and finding Altitude]
 
 #!/usr/bin/env python3
 

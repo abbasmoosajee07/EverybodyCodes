@@ -20,4 +20,9 @@ This repository contains coding solutions for the 2024 Everybody Codes. Each day
 12. **Day 12- Angry Birds**: Projectile motion but on a grid, similar to good ol Angry Birds
 13. **Day 13- Grid Traversal**: Traverse grid w/ different levels using Djikstra algorithm
 14. **Day 14- Build Trees**: Follow commands to build trees, and find different attributes of it
-15. **Day 15- Pathfinding on grid**: 
+15. **Day 15- Pathfinding on grid**: Racing for herbs by finding the shortest path
+16. **Day 16- Slot Machines**: Turn the slot machine to win coins
+17. **Day 17- Stars and Constellations**: Use Manhattan distance to count constellations
+18. **Day 18- Mapping Water Flow**: Map the flow of water from various points in a grid
+19. **Day 19- Decoding Messages**: Decode messages based on a series of 'L','R' keys
+20. **Day 20- Altitude for Gliders**: Find the highest point a glider can reach in the sky
