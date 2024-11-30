@@ -7,7 +7,7 @@ import os
 import sys
 
 # Default values for the arguments
-DEFAULT_DAY = 10
+DEFAULT_DAY = 21
 DEFAULT_YEAR = 2024
 DEFAULT_YEAR_SOLVE = 2024
 DEFAULT_AUTHOR = 'abbasmoosajee07'
