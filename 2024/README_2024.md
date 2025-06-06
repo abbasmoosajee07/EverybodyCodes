@@ -1,4 +1,4 @@
-# Everybody Codes 2024 - Coding Challenge Summaries
+# Everybody Codes 2024 - The Kingdom of Algorithmia
 
 This repository contains coding solutions for the 2024 Everybody Codes. Each day's challenge offers unique puzzles requiring efficient coding, algorithmic thinking, and optimization.
 

@@ -10,9 +10,9 @@ from Benchmarks.execute_challenge import execute_challenge_scripts
 
 if __name__ == "__main__":
     # Define constants
-    YEAR = 2024
-    CHALLENGE_NAME = 'Everybody Codes: The Kingdom of Algorithmia'
-    DAYS_TO_RUN = range(1, 21)
+    YEAR = 'Enigmatus'
+    CHALLENGE_NAME = 'Everybody Codes Story'
+    DAYS_TO_RUN = range(1, 4)
     COLOR_2024 = "#FFFF00"
     NUM_ITERATIONS = 3  # Number of iterations for benchmarking
 
