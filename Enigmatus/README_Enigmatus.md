@@ -7,4 +7,4 @@
 
 1. **Quest 1 - EniCode**: Modular Math with large numbers and identifying cycles.
 2. **Quest 2 - TangledTrees**: Create a network of connected information and then manipulate it.
-3. **Quest 3 -**:
+3. **Quest 3 -The Conical Snail Clock**: A rotating carousel clock, with math tricks.
