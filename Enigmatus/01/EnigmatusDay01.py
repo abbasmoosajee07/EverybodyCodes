@@ -2,7 +2,7 @@
 # Solved in Jun, 2025
 # Puzzle Link: https://everybody.codes/story/1/quests/1
 # Solution by: [abbasmoosajee07]
-# Brief: [Code/Problem Description]
+# Brief: [EniCode]
 """
 
 #!/usr/bin/env python3
