@@ -2,7 +2,7 @@
 
 This repository contains coding solutions for the 2024 Everybody Codes. Each day's challenge offers unique puzzles requiring efficient coding, algorithmic thinking, and optimization.
 
-![2024 Full Runtime](2024_RunTime_plot.png)
+![2024 Full Runtime](analysis/EC_2024_log.png)
 
 ## Day-by-Day Coding Overview
 

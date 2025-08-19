@@ -1,7 +1,7 @@
 # Everybody Codes - Echoes of Enigmatus
 
 
-![Enigmatus Full Runtime](Enigmatus_log_plot.png)
+![Enigmatus Full Runtime](analysis/Enigmatus_log.png)
 
 ## Day-by-Day Coding Overview
 

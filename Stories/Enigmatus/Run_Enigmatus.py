@@ -12,10 +12,10 @@ if __name__ == "__main__":
 
     base_dir = Path.cwd()
     script_dir = Path(__file__).parent.resolve()
-    selected_dir = base_dir / "2024"
-    config_file = "EC_2024.json"
+    selected_dir = base_dir / "Stories" / "Enigmatus"
+    config_file = "enigmatus.json"
 
-    PROBLEMS_TO_RUN = list(range(1, 22))
+    PROBLEMS_TO_RUN = list(range(1, 4))
 
     analyzer = ChallengeBenchmarks(
         base_dir = selected_dir,

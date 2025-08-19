@@ -1,8 +1,4 @@
-# Everybody Codes - 2024
-# # Solved in {2024}
-# Puzzle Link: https://everybody.codes/event/2024/quests
-# Solution by: [abbasmoosajee07]
-# Brief: [Run all 2024 scripts]
+# Everybody Codes - Entertainment Hub
 
 #!/usr/bin/env python3
 from pathlib import Path
@@ -12,10 +8,10 @@ if __name__ == "__main__":
 
     base_dir = Path.cwd()
     script_dir = Path(__file__).parent.resolve()
-    selected_dir = base_dir / "2024"
-    config_file = "EC_2024.json"
+    selected_dir = base_dir / "Stories" / "Entertainment_Hub"
+    config_file = "entertainment.json"
 
-    PROBLEMS_TO_RUN = list(range(1, 22))
+    PROBLEMS_TO_RUN = list(range(1, 4))
 
     analyzer = ChallengeBenchmarks(
         base_dir = selected_dir,

@@ -1,0 +1,11 @@
+{
+    "problem_title": "Quest",
+    "text_input": "Day{problem_no:02d}_input",
+    "challenge_id": "EC_2024",
+    "challenge_folder": "2024",
+    "problem_folder": "{problem_no:02d}",
+    "solution_file": "2024Day{problem_no:02d}.{lang}",
+    "challenge_header": "Everybody Codes: The Kingdom of Algorithmia!",
+    "plot_color": "#FFFF00",
+    "script_header": "Everybody Codes - Quest {problem_no}, Story Enigmatus\nSolution Started: {month} {current_time.tm_mday}, {current_time.tm_year}\nPuzzle Link: https://everybody.codes/event/2024/quests/{problem_no}\nSolution by: {author}\nBrief: [Code/Problem Description]"
+}

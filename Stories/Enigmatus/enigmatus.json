@@ -1,0 +1,11 @@
+{
+    "problem_title": "Day",
+    "text_input": "Day{problem_no:02d}_input",
+    "challenge_id": "Enigmatus",
+    "challenge_folder": "Enigmatus",
+    "problem_folder": "{problem_no:02d}",
+    "solution_file": "EnigmatusDay{problem_no:02d}.{lang}",
+    "challenge_header": "Everybody Codes: Enigmatus!",
+    "plot_color": "#FFFF00",
+    "script_header": "Everybody Codes - Day {problem_no}, Story Enigmatus\nSolution Started: {month} {current_time.tm_mday}, {current_time.tm_year}\nPuzzle Link: https://everybody.codes/story/1/quests/{problem_no}\nSolution by: {author}\nBrief: [Code/Problem Description]"
+}
