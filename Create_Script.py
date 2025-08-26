@@ -1,6 +1,6 @@
 from pathlib import Path
 from typing import Optional, Dict, Any, Tuple
-from challenge_utils.ScriptBuilder import ScriptBuilder
+from challenge_utils import ScriptBuilder
 
 # Constants
 PROBLEM_NO = 1
