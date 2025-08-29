@@ -145,7 +145,29 @@ class DieGames:
                         q.append(state)
                         seen.add(state)
 
+        self.print_game_board(board_dict, coins)
         return sum(coins.values())
+
+    def print_game_board(self, board_dict, coins_pos):
+        filename = Path(__file__).parent / "EC_Entertainment.txt"
+        # Find the maximum row and column indices
+        max_row = max(key[0] for key in board_dict.keys())
+        max_col = max(key[1] for key in board_dict.keys())
+        board_grid = []
+        # Print the grid
+        for row in range(max_row + 1):
+            row_data  = ""
+            for col in range(max_col + 1):
+                if (row, col) in board_dict:
+                    coins_val = coins_pos[(row, col)]
+                    if coins_val >= 1:
+                        row_data += '#'
+                    else:
+                        row_data += "."
+            board_grid.append(row_data)
+
+        with open(filename, 'w') as file:
+            file.write('\n'.join(board_grid))
 
 die_p1 = DieGames(input_data_p1[0].split("\n"))
 rolls_p1  = die_p1.collect_points()
