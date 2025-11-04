@@ -1,0 +1,11 @@
+{
+    "problem_title": "Quest",
+    "text_input": "Day{problem_no:02d}_input",
+    "challenge_id": "EC_2025",
+    "challenge_folder": "2025",
+    "problem_folder": "{problem_no:02d}",
+    "solution_file": "2025Day{problem_no:02d}.{lang}",
+    "challenge_header": "Everybody Codes: The Song of Ducks and Dragons!",
+    "plot_color": "#FFFF00",
+    "script_header": "Everybody Codes - Quest {problem_no}, Year 2025\nSolution Started: {month} {current_time.tm_mday}, {current_time.tm_year}\nPuzzle Link: https://everybody.codes/event/20252/quests/{problem_no}\nSolution by: {author}\nBrief: [Code/Problem Description]"
+}
