@@ -9,3 +9,4 @@ This repository contains coding solutions for the 2025 Everybody Codes. Each day
 1. **Day 1 - Whispers in the Shell**: Fairly simple challenges for list indexing and manipulation.
 2. **Day 2 - From Complex to Clarity**: Vector Math, fairly simple execution once you get over the hurdle of integer and div math.
 3. **Day 3 - The Deepest Fit**: Why write your own functions, when python can do it for you. LEARN PYTHON Kids
+4. **Day 4 - Teeth of the Wind**: MATH IS FUN
