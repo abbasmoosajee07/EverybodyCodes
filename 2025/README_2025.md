@@ -11,3 +11,4 @@ This repository contains coding solutions for the 2025 Everybody Codes. Each day
 3. **Day 3 - The Deepest Fit**: Why write your own functions, when python can do it for you. LEARN PYTHON Kids
 4. **Day 4 - Teeth of the Wind**: MATH IS FUN
 5. **Day 5 - Fishbone Order**: Interesting way to build a tree fairly simple overall, but figuring out how to skip over segments took a bit of time.
+6. **ay 6 - Mentorship Matrix**: Perfect Problem that shows how sart decisions at the start can save time towards the end, which alas I did not
