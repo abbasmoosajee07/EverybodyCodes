@@ -3,7 +3,7 @@ from typing import Optional, Dict, Any, Tuple
 from challenge_utils import ScriptBuilder
 
 # Constants
-PROBLEM_NO = 2
+PROBLEM_NO = 1
 CHALLENGE = "2025"
 CHOSEN_LANGUAGE = "python"
 

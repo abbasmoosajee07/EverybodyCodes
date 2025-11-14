@@ -7,6 +7,8 @@ Brief: [The Art of Connection]"""
 #!/usr/bin/env python3
 from pathlib import Path
 from collections import defaultdict
+import math
+import matplotlib.pyplot as plt
 
 # List of input file names
 input_files = ["Day08_input_p1.txt", "Day08_input_p2.txt", "Day08_input_p3.txt"]
@@ -20,6 +22,7 @@ input_data_p1, input_data_p2, input_data_p3 = [
 class CircleConnections:
     def __init__(self, path_str):
         self.full_path = list(map(int, path_str.split(",")))
+        # self.visualize_circle()
 
     def identify_opposites(self, all_points):
         opposite_points = {}
@@ -82,6 +85,33 @@ class CircleConnections:
                 cuts += sum(1 for c in links[b - 1] if not a <= c <= b)
                 best_cuts = max(best_cuts, cuts + (b in links[a]))
         return best_cuts
+
+    def visualize_circle(self, radius=1.0):
+        """Draw nails around a circle and connect them according to the path."""
+        n = max(self.full_path)
+        pts = []
+        for i in range(n):
+            theta = 2 * math.pi * i / n
+            x = radius * math.cos(theta)
+            y = radius * math.sin(theta)
+            pts.append((x, y))
+
+        fig, ax = plt.subplots(figsize=(6, 6))
+        ax.set_aspect('equal')
+        ax.axis('off')
+
+        # draw all nails
+        xs, ys = zip(*pts)
+        ax.scatter(xs, ys, s=20, color='black', zorder=3)
+
+        # draw connecting threads
+        for a, b in zip(self.full_path, self.full_path[1:]):
+            x1, y1 = pts[a - 1]
+            x2, y2 = pts[b - 1]
+            ax.plot([x1, x2], [y1, y2], color="#000000", linewidth=0.15, alpha=0.7)
+
+        plt.show()
+
 
 centre_cuts = CircleConnections(input_data_p1[0]).follow_centre()
 print("Quest 08, P1:", centre_cuts)
