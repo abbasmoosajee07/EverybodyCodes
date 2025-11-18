@@ -16,3 +16,4 @@ This repository contains coding solutions for the 2025 Everybody Codes. Each day
 8. **Day 8 - The Art of Connection**: Not a bad puzzle overall but geometry is really annoying
 9. **Day 9 - Encoded in the Scales**: Compare strings to calculate similarity, and build family trees. *Improve P3*
 10: **Day 10 - Feast on the Board**: Dragon Chess, all the good maze algorithms at once what more could one ask for
+11 **ay 11 - The Scout Duck Protocol**: Is it an elegant solution, no but it works so yk all's good.

@@ -144,9 +144,7 @@ class DragonChess:
                     sheep_moved = True
                     continue
                 if (sr + 1, sc) != position or self.board[(sr + 1, sc)] == '#':
-                    new_sheeps = deepcopy(sheeps)
-                    new_sheeps.remove(sheep)
-                    new_sheeps.add((sr + 1, sc))
+                    new_sheeps = (sheeps - {sheep}) | {(sr + 1, sc)}
                     sheep_moved = True
                     res += self.tournament(position, new_sheeps, False)
             if not sheep_moved:
