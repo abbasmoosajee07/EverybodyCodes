@@ -15,5 +15,6 @@ This repository contains coding solutions for the 2025 Everybody Codes. Each day
 7. **Day 7 - Namegraph**: Validate names according to a series of rules, and then extend it according tot he same rules usinng a bfs
 8. **Day 8 - The Art of Connection**: Not a bad puzzle overall but geometry is really annoying
 9. **Day 9 - Encoded in the Scales**: Compare strings to calculate similarity, and build family trees. *Improve P3*
-10: **Day 10 - Feast on the Board**: Dragon Chess, all the good maze algorithms at once what more could one ask for
-11 **ay 11 - The Scout Duck Protocol**: Is it an elegant solution, no but it works so yk all's good.
+10. **Day 10 - Feast on the Board**: Dragon Chess, all the good maze algorithms at once what more could one ask for
+11. **Day 11 - The Scout Duck Protocol**: Is it an elegant solution, no but it works so yk all's good.
+12. **Day 12 - One Spark to Burn Them All**: Floodfill algorithms at its best, P3 is a brute force approach with minor optimisations to remove dead barrels
