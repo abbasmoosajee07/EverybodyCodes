@@ -17,4 +17,5 @@ This repository contains coding solutions for the 2025 Everybody Codes. Each day
 9. **Day 9 - Encoded in the Scales**: Compare strings to calculate similarity, and build family trees. *Improve P3*
 10. **Day 10 - Feast on the Board**: Dragon Chess, all the good maze algorithms at once what more could one ask for
 11. **Day 11 - The Scout Duck Protocol**: Is it an elegant solution, no but it works so yk all's good.
-12. **Day 12 - One Spark to Burn Them All**: Floodfill algorithms at its best, P3 is a brute force approach with minor optimisations to remove dead barrels
+12. **Day 12 - One Spark to Burn Them All**: Floodfill algorithms at its best, P3 is a brute force approach with minor optimisations to remove dead barrels *Improve P3*
+13. **Day 13 - Unlocking the Mountain** Who knew building dials could be fun and deque is COOL
