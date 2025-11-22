@@ -20,3 +20,4 @@ This repository contains coding solutions for the 2025 Everybody Codes. Each day
 12. **Day 12 - One Spark to Burn Them All**: Floodfill algorithms at its best, P3 is a brute force approach with minor optimisations to remove dead barrels *Improve P3*
 13. **Day 13 - Unlocking the Mountain** Who knew building dials could be fun and deque is COOL.
 14. **Day 14 - The Game of Light**: A play on the Game of Life, fairly basic 1 and 2 with cycle detection P3.
+15 **Day 15 - Definitely Not a Maze**: Build your maze, traverse it, scaled to a 1000.
