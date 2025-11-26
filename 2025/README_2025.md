@@ -21,4 +21,5 @@ This repository contains coding solutions for the 2025 Everybody Codes. Each day
 13. **Day 13 - Unlocking the Mountain** Who knew building dials could be fun and deque is COOL.
 14. **Day 14 - The Game of Light**: A play on the Game of Life, fairly basic 1 and 2 with cycle detection P3.
 15. **Day 15 - Definitely Not a Maze**: Build your maze, traverse it, scaled to a 1000.
-16. **Day 16 - Harmonics of Stone**: Building blocks and charm spells fairly simple in the end, even if it took a couple tries
+16. **Day 16 - Harmonics of Stone**: Building blocks and charm spells fairly simple in the end, even if it took a couple tries.
+17. **Day 17 - Deadline-Driven Development**: Simple P1 and P2 for checking an validating cell positions, used to identify best time to build bridge for a changing grid.
