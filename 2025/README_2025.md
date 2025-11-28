@@ -24,3 +24,4 @@ This repository contains coding solutions for the 2025 Everybody Codes. Each day
 16. **Day 16 - Harmonics of Stone**: Building blocks and charm spells fairly simple in the end, even if it took a couple tries.
 17. **Day 17 - Deadline-Driven Development**: Simple P1 and P2 for checking an validating cell positions, used to identify best time to build bridge for a changing grid.
 18. **Day 18 - When Roots Remember**: Networks and dicts are fun, but in the end fairly easy problem to follow and solve even if it took a while to solve and made you hungry
+19. **Day 19 - Flappy Quack**: Who knew Flappy Bird could be made into a coding puzzle.
