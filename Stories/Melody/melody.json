@@ -1,11 +1,11 @@
 {
-    "problem_title": "Day",
-    "text_input": "Day{problem_no:02d}_input",
+    "problem_title": "Quest",
+    "text_input": "Quest{problem_no:02d}_input",
     "challenge_id": "Melody",
     "challenge_folder": "Melody",
     "problem_folder": "{problem_no:02d}",
-    "solution_file": "MelodyDay{problem_no:02d}.{lang}",
+    "solution_file": "MelodyQuest{problem_no:02d}.{lang}",
     "challenge_header": "Everybody Codes: Melody Made of Code!",
     "plot_color": "#FFFF00",
-    "script_header": "Everybody Codes - Day {problem_no}, Story Melody Made of Code\nSolution Started: {month} {current_time.tm_mday}, {current_time.tm_year}\nPuzzle Link: https://everybody.codes/story/3/quests/{problem_no}\nSolution by: {author}\nBrief: [Code/Problem Description]"
+    "script_header": "Everybody Codes - Quest {problem_no}, Story Melody Made of Code\nSolution Started: {month} {current_time.tm_mday}, {current_time.tm_year}\nPuzzle Link: https://everybody.codes/story/3/quests/{problem_no}\nSolution by: {author}\nBrief: [Code/Problem Description]"
 }
