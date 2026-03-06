@@ -15,7 +15,7 @@ if __name__ == "__main__":
     selected_dir = base_dir / "Stories" / "Melody"
     config_file = "melody.json"
 
-    PROBLEMS_TO_RUN = list(range(1, 2))
+    PROBLEMS_TO_RUN = list(range(1, 4))
 
     analyzer = ChallengeBenchmarks(
         base_dir = selected_dir,
