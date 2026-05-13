@@ -4,13 +4,14 @@ from challenge_utils import ScriptBuilder
 
 # Constants
 PROBLEM_NO = 1
-CHALLENGE = "Melody"
+CHALLENGE = "No_1"
 CHOSEN_LANGUAGE = "python"
 
 AUTHOR = "Abbas Moosajee"
 
 CONFIG_DICT = {
     "Melody": ("Stories/Melody", "melody.json"),
+    "No_1": ("GridOS/No_1", "gridos_1.json"),
     "2025": ("2025", "EC_2025.json")
 }
 
