@@ -1,0 +1,11 @@
+{
+    "problem_title": "Quest",
+    "text_input": "Quest{problem_no:02d}_input",
+    "challenge_id": "Atelier",
+    "challenge_folder": "Atelier",
+    "problem_folder": "{problem_no:02d}",
+    "solution_file": "AtelierQuest{problem_no:02d}.{lang}",
+    "challenge_header": "Everybody Codes: The Digital Atelier!",
+    "plot_color": "#FFFF00",
+    "script_header": "Everybody Codes - Quest {problem_no}, Story The Digital Atelier\nSolution Started: {month} {current_time.tm_mday}, {current_time.tm_year}\nPuzzle Link: https://everybody.codes/story/4/quests/{problem_no}\nSolution by: {author}\nBrief: [Code/Problem Description]"
+}
