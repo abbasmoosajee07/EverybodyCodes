@@ -1,8 +1,8 @@
 # Everybody Codes - 2026
 # # Solved in {2026}
-# Puzzle Link: https://everybody.codes/story/3/quests
+# Puzzle Link: https://everybody.codes/story/4/quests
 # Solution by: [abbasmoosajee07]
-# Brief: [Run all Melody scripts]
+# Brief: [Run all DIgital Atelier scripts]
 
 #!/usr/bin/env python3
 from pathlib import Path

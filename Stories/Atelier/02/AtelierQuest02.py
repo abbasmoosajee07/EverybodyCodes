@@ -58,15 +58,6 @@ class SparkBalls:
             base_coord = new_coord
         return illuminated
 
-    def swarm_fireflies(self, random = False):
-        fireflies = set()
-        illuminated = self.swarm_beetles_random() if random else self.swarm_beetles()
-        for point in illuminated:
-            new_flies = self.find_fireflies(point)
-            # print(point, new_flies)
-            fireflies.update(new_flies)
-        return fireflies - illuminated
-
     def swarm_beetles_random(self):
         start = self.sky_dict["START"]
         beacons = [coord for key, coord in self.sky_dict.items() if key != "START"]
@@ -84,7 +75,14 @@ class SparkBalls:
             frontier = next_frontier
         return illuminated
 
-input_data_p11 = ['START=[5,0]', 'A=[0,0]', 'B=[10,0]', 'C=[5,10]', 'MOVES=ABCCBABCA']
+    def swarm_fireflies(self, random = False):
+        fireflies = set()
+        illuminated = self.swarm_beetles_random() if random else self.swarm_beetles()
+        for point in illuminated:
+            new_flies = self.find_fireflies(point)
+            # print(point, new_flies)
+            fireflies.update(new_flies)
+        return fireflies - illuminated
 
 print("The Digitl Atelier, Quest 02")
 print("Part 1:", len(SparkBalls(input_data_p1).swarm_beetles()))

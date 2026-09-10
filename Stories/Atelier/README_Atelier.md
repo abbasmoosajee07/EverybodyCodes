@@ -7,4 +7,4 @@
 
 1. **Quest 1 - The Recamán Drapery**: A fun challenge of figuring out sequences and nuber handling
 2. **Quest 2 - Sir Sierpiński's Sparkballs**: Different approach to floodfill algortihm with an addition twist of randomness
-3. **Quest 3 -**
+3. **Quest 3 - Hitomezashi Sashiko Floorplan**: Who knew drawing lines and boxes could be so complicated
