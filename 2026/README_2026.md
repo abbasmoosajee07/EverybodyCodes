@@ -6,4 +6,4 @@ This repository contains coding solutions for the 2026 Everybody Codes. Each day
 
 ## Day-by-Day Coding Overview
 
-1. **Day 1 - K**:
+1. **Day 1 - The Conservation**: Simple exercis, took a while to debug it tho.
