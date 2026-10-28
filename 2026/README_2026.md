@@ -6,4 +6,5 @@ This repository contains coding solutions for the 2026 Everybody Codes. Each day
 
 ## Day-by-Day Coding Overview
 
-1. **Day 1 - The Conservation**: Simple exercis, took a while to debug it tho.
+1. **Day 1 - The Conservation**: Simple exercise, took a while to debug it tho.
+2. **Day 2 - The Axeperiment**: Well this was a different algorithm to learn
