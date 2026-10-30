@@ -9,3 +9,4 @@ This repository contains coding solutions for the 2026 Everybody Codes. Each day
 1. **Day 1 - The Conservation**: Simple exercise, took a while to debug it tho.
 2. **Day 2 - The Axeperiment**: Well this was a different algorithm to learn
 3. **Day 3 - The ISOlation**: Simple and fun exercise, part 3 isnt too bad once you figure an approach
+4. **Day 4 - The Rankening**: Quick, easy and fun
